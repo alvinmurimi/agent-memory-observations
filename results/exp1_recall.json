@@ -1,0 +1,1212 @@
+{
+  "config": {
+    "qtypes": "corrective,temporal,multihop",
+    "Ns": "20,50,100,200,500",
+    "ks": "5,10",
+    "per": 40,
+    "seed": 7,
+    "out": "results/exp1_recall.json"
+  },
+  "rows": [
+    {
+      "qtype": "corrective",
+      "N": 20,
+      "k": 5,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 20,
+      "k": 5,
+      "signal": "entity",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 20,
+      "k": 5,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 20,
+      "k": 5,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 20,
+      "k": 5,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 20,
+      "k": 10,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 20,
+      "k": 10,
+      "signal": "entity",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 20,
+      "k": 10,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 20,
+      "k": 10,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 0.925
+    },
+    {
+      "qtype": "corrective",
+      "N": 20,
+      "k": 10,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 50,
+      "k": 5,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 50,
+      "k": 5,
+      "signal": "entity",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 50,
+      "k": 5,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 50,
+      "k": 5,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 50,
+      "k": 5,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 50,
+      "k": 10,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 50,
+      "k": 10,
+      "signal": "entity",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 50,
+      "k": 10,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 50,
+      "k": 10,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 0.975
+    },
+    {
+      "qtype": "corrective",
+      "N": 50,
+      "k": 10,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 100,
+      "k": 5,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 100,
+      "k": 5,
+      "signal": "entity",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 100,
+      "k": 5,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 100,
+      "k": 5,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 100,
+      "k": 5,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 100,
+      "k": 10,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 100,
+      "k": 10,
+      "signal": "entity",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 100,
+      "k": 10,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 100,
+      "k": 10,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 0.975
+    },
+    {
+      "qtype": "corrective",
+      "N": 100,
+      "k": 10,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 200,
+      "k": 5,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 200,
+      "k": 5,
+      "signal": "entity",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 200,
+      "k": 5,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 200,
+      "k": 5,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 200,
+      "k": 5,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 200,
+      "k": 10,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 200,
+      "k": 10,
+      "signal": "entity",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 200,
+      "k": 10,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 200,
+      "k": 10,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 200,
+      "k": 10,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 500,
+      "k": 5,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 500,
+      "k": 5,
+      "signal": "entity",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 500,
+      "k": 5,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 500,
+      "k": 5,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 500,
+      "k": 5,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 0.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 500,
+      "k": 10,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 500,
+      "k": 10,
+      "signal": "entity",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 500,
+      "k": 10,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 500,
+      "k": 10,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "corrective",
+      "N": 500,
+      "k": 10,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 20,
+      "k": 5,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 20,
+      "k": 5,
+      "signal": "entity",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 20,
+      "k": 5,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 20,
+      "k": 5,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 0.625
+    },
+    {
+      "qtype": "temporal",
+      "N": 20,
+      "k": 5,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 20,
+      "k": 10,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 20,
+      "k": 10,
+      "signal": "entity",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 20,
+      "k": 10,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 20,
+      "k": 10,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 20,
+      "k": 10,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 50,
+      "k": 5,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 50,
+      "k": 5,
+      "signal": "entity",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 50,
+      "k": 5,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 50,
+      "k": 5,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 0.725
+    },
+    {
+      "qtype": "temporal",
+      "N": 50,
+      "k": 5,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 50,
+      "k": 10,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 50,
+      "k": 10,
+      "signal": "entity",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 50,
+      "k": 10,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 50,
+      "k": 10,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 50,
+      "k": 10,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 100,
+      "k": 5,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 100,
+      "k": 5,
+      "signal": "entity",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 100,
+      "k": 5,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 100,
+      "k": 5,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 0.55
+    },
+    {
+      "qtype": "temporal",
+      "N": 100,
+      "k": 5,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 100,
+      "k": 10,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 100,
+      "k": 10,
+      "signal": "entity",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 100,
+      "k": 10,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 100,
+      "k": 10,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 100,
+      "k": 10,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 200,
+      "k": 5,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 200,
+      "k": 5,
+      "signal": "entity",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 200,
+      "k": 5,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 200,
+      "k": 5,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 0.825
+    },
+    {
+      "qtype": "temporal",
+      "N": 200,
+      "k": 5,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 200,
+      "k": 10,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 200,
+      "k": 10,
+      "signal": "entity",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 200,
+      "k": 10,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 200,
+      "k": 10,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 200,
+      "k": 10,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 500,
+      "k": 5,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 500,
+      "k": 5,
+      "signal": "entity",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 500,
+      "k": 5,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 500,
+      "k": 5,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 0.675
+    },
+    {
+      "qtype": "temporal",
+      "N": 500,
+      "k": 5,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 500,
+      "k": 10,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 500,
+      "k": 10,
+      "signal": "entity",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 500,
+      "k": 10,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 500,
+      "k": 10,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "temporal",
+      "N": 500,
+      "k": 10,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 20,
+      "k": 5,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 20,
+      "k": 5,
+      "signal": "entity",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 20,
+      "k": 5,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 20,
+      "k": 5,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 0.975
+    },
+    {
+      "qtype": "multihop",
+      "N": 20,
+      "k": 5,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 20,
+      "k": 10,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 20,
+      "k": 10,
+      "signal": "entity",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 20,
+      "k": 10,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 20,
+      "k": 10,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 20,
+      "k": 10,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 50,
+      "k": 5,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 0.575
+    },
+    {
+      "qtype": "multihop",
+      "N": 50,
+      "k": 5,
+      "signal": "entity",
+      "n": 40,
+      "recall": 0.575
+    },
+    {
+      "qtype": "multihop",
+      "N": 50,
+      "k": 5,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 0.575
+    },
+    {
+      "qtype": "multihop",
+      "N": 50,
+      "k": 5,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 0.975
+    },
+    {
+      "qtype": "multihop",
+      "N": 50,
+      "k": 5,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 50,
+      "k": 10,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 0.95
+    },
+    {
+      "qtype": "multihop",
+      "N": 50,
+      "k": 10,
+      "signal": "entity",
+      "n": 40,
+      "recall": 0.95
+    },
+    {
+      "qtype": "multihop",
+      "N": 50,
+      "k": 10,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 0.95
+    },
+    {
+      "qtype": "multihop",
+      "N": 50,
+      "k": 10,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 50,
+      "k": 10,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 100,
+      "k": 5,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 0.575
+    },
+    {
+      "qtype": "multihop",
+      "N": 100,
+      "k": 5,
+      "signal": "entity",
+      "n": 40,
+      "recall": 0.575
+    },
+    {
+      "qtype": "multihop",
+      "N": 100,
+      "k": 5,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 0.575
+    },
+    {
+      "qtype": "multihop",
+      "N": 100,
+      "k": 5,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 100,
+      "k": 5,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 100,
+      "k": 10,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 0.675
+    },
+    {
+      "qtype": "multihop",
+      "N": 100,
+      "k": 10,
+      "signal": "entity",
+      "n": 40,
+      "recall": 0.675
+    },
+    {
+      "qtype": "multihop",
+      "N": 100,
+      "k": 10,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 0.675
+    },
+    {
+      "qtype": "multihop",
+      "N": 100,
+      "k": 10,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 100,
+      "k": 10,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 200,
+      "k": 5,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 0.45
+    },
+    {
+      "qtype": "multihop",
+      "N": 200,
+      "k": 5,
+      "signal": "entity",
+      "n": 40,
+      "recall": 0.45
+    },
+    {
+      "qtype": "multihop",
+      "N": 200,
+      "k": 5,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 0.45
+    },
+    {
+      "qtype": "multihop",
+      "N": 200,
+      "k": 5,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 0.975
+    },
+    {
+      "qtype": "multihop",
+      "N": 200,
+      "k": 5,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 200,
+      "k": 10,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 0.575
+    },
+    {
+      "qtype": "multihop",
+      "N": 200,
+      "k": 10,
+      "signal": "entity",
+      "n": 40,
+      "recall": 0.575
+    },
+    {
+      "qtype": "multihop",
+      "N": 200,
+      "k": 10,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 0.575
+    },
+    {
+      "qtype": "multihop",
+      "N": 200,
+      "k": 10,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 200,
+      "k": 10,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 500,
+      "k": 5,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 0.425
+    },
+    {
+      "qtype": "multihop",
+      "N": 500,
+      "k": 5,
+      "signal": "entity",
+      "n": 40,
+      "recall": 0.425
+    },
+    {
+      "qtype": "multihop",
+      "N": 500,
+      "k": 5,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 0.425
+    },
+    {
+      "qtype": "multihop",
+      "N": 500,
+      "k": 5,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 0.975
+    },
+    {
+      "qtype": "multihop",
+      "N": 500,
+      "k": 5,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 0.975
+    },
+    {
+      "qtype": "multihop",
+      "N": 500,
+      "k": 10,
+      "signal": "sem_topk",
+      "n": 40,
+      "recall": 0.525
+    },
+    {
+      "qtype": "multihop",
+      "N": 500,
+      "k": 10,
+      "signal": "entity",
+      "n": 40,
+      "recall": 0.525
+    },
+    {
+      "qtype": "multihop",
+      "N": 500,
+      "k": 10,
+      "signal": "temporal",
+      "n": 40,
+      "recall": 0.525
+    },
+    {
+      "qtype": "multihop",
+      "N": 500,
+      "k": 10,
+      "signal": "iterative",
+      "n": 40,
+      "recall": 1.0
+    },
+    {
+      "qtype": "multihop",
+      "N": 500,
+      "k": 10,
+      "signal": "hybrid",
+      "n": 40,
+      "recall": 1.0
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "config": {
+    "conds": "BOTH,ENTITY,ATTR,NEITHER",
+    "N": 300,
+    "per": 60,
+    "k": 10,
+    "seed": 7,
+    "out": "results/e1d_recall_boundary.json"
+  },
+  "rows": [
+    {
+      "cond": "BOTH",
+      "N": 300,
+      "k": 10,
+      "n": 60,
+      "sem_recall": 1.0,
+      "sem_ci": [
+        0.94,
+        1.0
+      ],
+      "neighbor_recall": 1.0,
+      "neighbor_ci": [
+        0.94,
+        1.0
+      ]
+    },
+    {
+      "cond": "ENTITY",
+      "N": 300,
+      "k": 10,
+      "n": 60,
+      "sem_recall": 1.0,
+      "sem_ci": [
+        0.94,
+        1.0
+      ],
+      "neighbor_recall": 1.0,
+      "neighbor_ci": [
+        0.94,
+        1.0
+      ]
+    },
+    {
+      "cond": "ATTR",
+      "N": 300,
+      "k": 10,
+      "n": 60,
+      "sem_recall": 1.0,
+      "sem_ci": [
+        0.94,
+        1.0
+      ],
+      "neighbor_recall": 1.0,
+      "neighbor_ci": [
+        0.94,
+        1.0
+      ]
+    },
+    {
+      "cond": "NEITHER",
+      "N": 300,
+      "k": 10,
+      "n": 60,
+      "sem_recall": 0.0,
+      "sem_ci": [
+        -0.0,
+        0.06
+      ],
+      "neighbor_recall": 1.0,
+      "neighbor_ci": [
+        0.94,
+        1.0
+      ]
+    }
+  ]
+}

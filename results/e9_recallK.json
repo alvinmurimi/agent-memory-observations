@@ -1,0 +1,26 @@
+{
+  "coref_attr_M10000": {
+    "median_rank": 343,
+    "min_rank": 27,
+    "max_rank": 882,
+    "recall@10": 0.0,
+    "recall@40": 0.033,
+    "recall@100": 0.1,
+    "recall@500": 0.833,
+    "recall@1000": 1.0,
+    "recall@2000": 1.0,
+    "recall@5000": 1.0
+  },
+  "coref_attr_M50000": {
+    "median_rank": 2224,
+    "min_rank": 255,
+    "max_rank": 8788,
+    "recall@10": 0.0,
+    "recall@40": 0.0,
+    "recall@100": 0.0,
+    "recall@500": 0.067,
+    "recall@1000": 0.167,
+    "recall@2000": 0.4,
+    "recall@5000": 0.867
+  }
+}

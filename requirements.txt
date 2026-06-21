@@ -1,0 +1,6 @@
+# LLM-free experiments (E1, E1b, E1d, E7, E7b) need only:
+numpy
+scikit-learn
+# Dense baseline (dense_local.py) — local static embedder, no GPU/quota:
+model2vec
+# Optional (cross-vendor / dense via API; needs GEMINI_KEYS): standard library urllib only.

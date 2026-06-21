@@ -1,0 +1,50 @@
+{
+  "coref_attr_M2000_confound0.0": {
+    "link_acc": 1.0,
+    "flat": 0.9,
+    "auto": 1.0,
+    "oracle": 1.0
+  },
+  "coref_attr_M2000_confound0.5": {
+    "link_acc": 0.52,
+    "flat": 0.84,
+    "auto": 0.52,
+    "oracle": 1.0
+  },
+  "coref_attr_M10000_confound0.0": {
+    "link_acc": 1.0,
+    "flat": 0.02,
+    "auto": 1.0,
+    "oracle": 1.0
+  },
+  "coref_attr_M10000_confound0.5": {
+    "link_acc": 0.52,
+    "flat": 0.0,
+    "auto": 0.52,
+    "oracle": 1.0
+  },
+  "token_disjoint_M2000_confound0.0": {
+    "link_acc": 1.0,
+    "flat": 0.0,
+    "auto": 1.0,
+    "oracle": 1.0
+  },
+  "token_disjoint_M2000_confound0.5": {
+    "link_acc": 0.56,
+    "flat": 0.0,
+    "auto": 0.56,
+    "oracle": 1.0
+  },
+  "token_disjoint_M10000_confound0.0": {
+    "link_acc": 1.0,
+    "flat": 0.0,
+    "auto": 1.0,
+    "oracle": 1.0
+  },
+  "token_disjoint_M10000_confound0.5": {
+    "link_acc": 0.56,
+    "flat": 0.0,
+    "auto": 0.56,
+    "oracle": 1.0
+  }
+}

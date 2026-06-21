@@ -1,0 +1,117 @@
+{
+  "note": "oracle entity index = 1.00 (feasibility ceiling, not shown)",
+  "named": {
+    "M2000": {
+      "B5": {
+        "lex": 1.0,
+        "dense": 1.0,
+        "hybrid": 1.0
+      },
+      "B20": {
+        "lex": 1.0,
+        "dense": 1.0,
+        "hybrid": 1.0
+      }
+    },
+    "M10000": {
+      "B5": {
+        "lex": 1.0,
+        "dense": 1.0,
+        "hybrid": 1.0
+      },
+      "B20": {
+        "lex": 1.0,
+        "dense": 1.0,
+        "hybrid": 1.0
+      }
+    },
+    "M50000": {
+      "B5": {
+        "lex": 1.0,
+        "dense": 1.0,
+        "hybrid": 1.0
+      },
+      "B20": {
+        "lex": 1.0,
+        "dense": 1.0,
+        "hybrid": 1.0
+      }
+    }
+  },
+  "coref_attr": {
+    "M2000": {
+      "B5": {
+        "lex": 0.0,
+        "dense": 0.04,
+        "hybrid": 0.08
+      },
+      "B20": {
+        "lex": 0.8,
+        "dense": 0.08,
+        "hybrid": 0.26
+      }
+    },
+    "M10000": {
+      "B5": {
+        "lex": 0.0,
+        "dense": 0.02,
+        "hybrid": 0.02
+      },
+      "B20": {
+        "lex": 0.0,
+        "dense": 0.02,
+        "hybrid": 0.02
+      }
+    },
+    "M50000": {
+      "B5": {
+        "lex": 0.0,
+        "dense": 0.0,
+        "hybrid": 0.0
+      },
+      "B20": {
+        "lex": 0.0,
+        "dense": 0.0,
+        "hybrid": 0.0
+      }
+    }
+  },
+  "token_disjoint": {
+    "M2000": {
+      "B5": {
+        "lex": 0.0,
+        "dense": 0.0,
+        "hybrid": 0.0
+      },
+      "B20": {
+        "lex": 0.0,
+        "dense": 0.0,
+        "hybrid": 0.0
+      }
+    },
+    "M10000": {
+      "B5": {
+        "lex": 0.0,
+        "dense": 0.0,
+        "hybrid": 0.0
+      },
+      "B20": {
+        "lex": 0.0,
+        "dense": 0.0,
+        "hybrid": 0.0
+      }
+    },
+    "M50000": {
+      "B5": {
+        "lex": 0.0,
+        "dense": 0.0,
+        "hybrid": 0.0
+      },
+      "B20": {
+        "lex": 0.0,
+        "dense": 0.0,
+        "hybrid": 0.0
+      }
+    }
+  }
+}
