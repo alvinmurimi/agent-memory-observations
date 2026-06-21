@@ -1,5 +1,7 @@
 # Agent memory observations
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20787349.svg)](https://doi.org/10.5281/zenodo.20787349)
+
 An exploratory study that began from a practical question, "can structuring a knowledge base make an LLM agent answer more accurately," and is frozen here at observations only.
 
 Start with these two files:
